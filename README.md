@@ -22,3 +22,7 @@ This project can be used as a starting point to develop a Spring Boot JDBC appli
 Before you make any modifications to this project, you can create a schema in MySQL Workbench. The schema should have the name "bunnies" with username and password set to "bunnies". You can import data into the bunny tables by copying the contents of src/main/resources/bunny-schema.sql and pasting it into a DBeaver SQL editor. 
 
 To do this, create a connection in DBeaver and set it to read/write from the bunnies schema. Open a SQL editor by right-clicking on the schema name in DBeaver's Database Navigator. Then select "SQL Editor" / "Recent SQL script". Once the editor is open, paste the contents of bunny-schema.sql. Press Ctrl+A (Windows) or Cmd+A (MacOS) to select everything in the editor. Then press Alt+X (Windows) or Opt+X (MacOS) to execute all the SQL statements. This will create the tables and populate them with sample data.
+
+## Starting from scratch
+
+You can start from scratch if you want. Create a Maven project. This will create a very minimal pom.xml. Copy the &lt;parent&gt;, &lt;properties&gt;, &lt;dependencies&gt;, and &lt;build&gt; sections from the pom.xml in this project into the pom.xml in your own project. This should be enough to get you started.
