@@ -26,3 +26,9 @@ To do this, create a connection in DBeaver and set it to read/write from the bun
 ## Starting from scratch
 
 You can start from scratch if you want. Create a Maven project. This will create a very minimal pom.xml. Copy the &lt;parent&gt;, &lt;properties&gt;, &lt;dependencies&gt;, and &lt;build&gt; sections from the pom.xml in this project into the pom.xml in your own project. This should be enough to get you started.
+
+## Running the project
+
+Run the project live by running bunny.BunnyApp as a Java or Spring Boot application. All the operations work using the /bunny URI. This is documented in bunny.controller.BunnyOperations.java.
+
+From the running application, you can test it using the OpenAPI documentation. Navigate a browser to http://localhost:8080/swagger-ui.html.
