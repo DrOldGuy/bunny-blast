@@ -1,0 +1,7 @@
+# Change the user name, password and schema to match your database.
+
+spring:
+  datasource:
+    password: bunnies
+    username: bunnies
+    url: jdbc:mysql://localhost:3306/bunnies
